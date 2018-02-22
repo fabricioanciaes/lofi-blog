@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: fabricioanciaes/lofi-blog
 
 media_folder: static/assets
 
