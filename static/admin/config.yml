@@ -14,7 +14,8 @@ collections:
       - {label: "Template Key", name: "templateKey", widget:"hidden", default: "blog-post"}
       - {label: "Path", name: "path", widget: "string", default: "/"}
       - {label: "Category", name: "categories", widget: "select", options: ["Fighting Games", "Rhythm Games", "DIY", "Webdev"]}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", name: "body", widget: "markdown"}
